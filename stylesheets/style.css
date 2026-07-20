@@ -1,0 +1,27 @@
+@font-face{
+    font-family: postergothic-excond-atf-bold;
+    src: url('/fonts/postergothic-excond-atf-bold.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-size: large;
+}
+
+a {
+  font-family: postergothic-excond-atf-bold;
+  font-size: 100 !important;
+}
+
+.active {
+  color: red !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center !important;
+} 
