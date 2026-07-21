@@ -3,12 +3,20 @@
     src: url('/fonts/postergothic-excond-atf-bold.otf');
     font-weight: normal;
     font-style: normal;
-    font-size: large;
 }
 
-a {
+#toplink {
   font-family: postergothic-excond-atf-bold;
-  font-size: 100 !important;
+}
+
+h1 {
+  font-family: postergothic-excond-atf-bold;
+}
+
+#intro {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 300%;
 }
 
 .active {
