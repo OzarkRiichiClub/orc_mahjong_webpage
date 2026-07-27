@@ -5,11 +5,45 @@
     font-style: normal;
 }
 
+body {
+   min-height: 400px;
+   margin-bottom: 100px;
+   clear: both;
+}
+
 #toplink {
   font-family: postergothic-excond-atf-bold;
 }
 
 h1 {
+  font-family: postergothic-excond-atf-bold;
+}
+
+h2 {
+  font-family: postergothic-excond-atf-bold;
+}
+
+h3 {
+  font-family: postergothic-excond-atf-bold;
+}
+
+h4 {
+  font-family: postergothic-excond-atf-bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+#social {
   font-family: postergothic-excond-atf-bold;
 }
 
@@ -28,8 +62,23 @@ h1 {
 }
 
 .footer {
+  background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
   justify-content: center !important;
 } 
+
+.footer>div>span {
+  color: white;
+}
+
+#footer-svg {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(0%) hue-rotate(259deg) brightness(114%) contrast(101%);
+}
+
+@media (min-width: 1140px) {
+      #social {
+        float:left;
+      }
+    }
