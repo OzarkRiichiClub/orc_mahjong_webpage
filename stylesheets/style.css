@@ -11,24 +11,16 @@ body {
    clear: both;
 }
 
-#toplink {
-  font-family: postergothic-excond-atf-bold;
+.navbar-adjustment {
+  width: 100%;
+}
+
+*:not(.nav-link):not() {
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
-  font-family: postergothic-excond-atf-bold;
-}
-
-h2 {
-  font-family: postergothic-excond-atf-bold;
-}
-
-h3 {
-  font-family: postergothic-excond-atf-bold;
-}
-
-h4 {
-  font-family: postergothic-excond-atf-bold;
+  font-size: clamp(5rem, 7vw, 1rem);
 }
 
 a {
@@ -36,15 +28,16 @@ a {
 }
 
 a:link {
-  color: black;
+  color:black;
 }
 
 a:visited {
-  color: black;
+  color:black;
 }
 
-#social {
+.nav-link {
   font-family: postergothic-excond-atf-bold;
+  color: black;
 }
 
 #intro {
@@ -57,24 +50,15 @@ a:visited {
   color: red !important;
 }
 
-.nav-link {
-  color: white !important;
-}
-
 .footer {
-  background-color: black;
   position: fixed;
   bottom: 0;
   width: 100%;
   justify-content: center !important;
 } 
 
-.footer>div>span {
-  color: white;
-}
-
 #footer-svg {
-  filter: brightness(0) saturate(100%) invert(99%) sepia(99%) saturate(0%) hue-rotate(259deg) brightness(114%) contrast(101%);
+  filter: invert(32%) sepia(31%) saturate(734%) hue-rotate(49deg) brightness(94%) contrast(83%);
 }
 
 @media (min-width: 1140px) {
@@ -82,3 +66,9 @@ a:visited {
         float:left;
       }
     }
+
+@media (max-width: 991px) {
+      #faq {
+        text-align: center;
+      }
+}
